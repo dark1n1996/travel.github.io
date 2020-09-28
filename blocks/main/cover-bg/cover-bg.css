@@ -1,0 +1,7 @@
+.cover-bg {
+    width: 1184px;
+    height: 594px;
+    opacity: 0.3;
+    background-image: url("../../../images/cover.jpg");
+    background-size: contain;
+}

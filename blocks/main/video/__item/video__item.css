@@ -1,0 +1,14 @@
+.video__item {
+    position: relative;
+}
+
+.video__item:nth-child(1) {
+    margin-right: 18px;
+}
+
+@media screen and (max-width: 700px) {
+    .video__item:nth-child(1) {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    } 
+}

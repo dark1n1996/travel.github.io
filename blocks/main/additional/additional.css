@@ -1,0 +1,13 @@
+@import url("__item-bg/additional__item-bg.css");
+@import url("__heading/additional__heading.css");
+@import url("__text/additional__text.css");
+@import url("__item/additional__item.css");
+@import url("__container/additional__container.css");
+
+.additional {
+    margin: 0px auto 0px auto;
+    width: 1184px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

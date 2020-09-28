@@ -1,0 +1,34 @@
+.place__website {
+    width: calc(100% - 520px);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    align-self: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+    .place__website {
+        width: calc(100% - 380px);
+        margin-left: 28px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .place__website {
+        width: calc(100% - 310px);
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .place__website {
+        width: calc(100% - 270px);
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .place__website {
+        display: none;
+    }
+}

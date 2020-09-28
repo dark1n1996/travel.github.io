@@ -1,0 +1,36 @@
+.place__image {
+    width: 460px;
+    height: auto;
+    margin-right: 40px;
+    margin-top: 60px;
+    object-fit: contain;
+    align-self: flex-start;
+
+}
+
+@media screen and (max-width: 768px) {
+    .place__image {
+        width: 340px;
+        margin-right: 28px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .place__image {
+        width: 290px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .place__image {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .place__image {
+        width: 100%;
+        margin: 32px auto 24px auto;
+    }
+}

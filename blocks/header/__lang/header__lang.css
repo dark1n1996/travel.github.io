@@ -1,0 +1,39 @@
+@import url("_en/header__lang_en.css");
+@import url("_ru/header__lang_ru.css");
+
+.header__lang {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 23px;
+    opacity: 1;
+    transition: opacity 0.2s linear;
+    transition: text-decoration 0.2s linear;
+}
+
+.header__lang:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px) {
+    .header__lang {
+
+        margin-right: 48px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header__lang {
+        margin-right: 24px
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header__lang {
+        margin-right: 16px;
+        font-size: 18px;
+        line-height: 17px;
+    }
+}

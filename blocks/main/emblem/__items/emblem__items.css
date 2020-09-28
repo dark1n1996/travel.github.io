@@ -1,0 +1,5 @@
+.emblem__items {
+    display: flex;
+    margin: 0px auto 0px auto;
+    justify-content: space-between;
+}

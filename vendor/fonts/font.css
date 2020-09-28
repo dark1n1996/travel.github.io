@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Inter";
+    src: url("Inter(Hinted,forWindows)/Inter-Light-BETA.woff") format("woff"), 
+    url("Inter(Hinted,forWindows)/Inter-Light-BETA.woff2") format("woff2"),
+    url("Inter(Hinted,forWindows)/Inter-Light-BETA.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("Inter(Hinted,forWindows)/Inter-Bold.woff") format("woff"), 
+    url("Inter(Hinted,forWindows)/Inter-Bold.woff2") format("woff2"),
+    url("Inter(Hinted,forWindows)/Inter-Bold.ttf") format("truetype");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("Inter(Hinted,forWindows)/Inter-ExtraBold.woff") format("woff"), 
+    url("Inter(Hinted,forWindows)/Inter-ExtraBold.woff2") format("woff2"),
+    url("Inter(Hinted,forWindows)/Inter-ExtraBoldItalic.ttf") format("truetype");
+    font-weight: bold;
+}
+
